@@ -1,0 +1,38 @@
+.cart-form {
+  display: flex;
+  width: 300px;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.cart-form__label {
+  font-size: 1.6rem;
+  padding: 2rem;
+}
+
+.cart-form__input {
+  font-size: 1rem;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  box-sizing: border-box;
+}
+
+.cart-form__validity-message {
+  text-align: start;
+  font-weight: 600;
+}
+
+.cart-form__validity-message--error {
+  color: tomato;
+}
+
+.cart-form__validity-message--success {
+  color: darkseagreen;
+}
+
+.cart-form__button-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
